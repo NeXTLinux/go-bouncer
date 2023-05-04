@@ -16,7 +16,7 @@ package direct
 
 import (
 	// This import should be ignored, since it's an internal dependency.
-	_ "github.com/wagoodman/go-bouncer/bouncer/licenses/testdata/direct/subpkg"
+	_ "github.com/nextlinux/go-bouncer/bouncer/licenses/testdata/direct/subpkg"
 	// This import should be detected as being a transitive dependency of whatever
 	// imports this package.
 	_ "github.com/nextlinux/go-bouncer/bouncer/licenses/testdata/indirect"
